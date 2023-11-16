@@ -3,8 +3,9 @@
   "type": "module",
   "author": "Ivo Karaneshev",
   "main": "src/main.ts",
-  "scripts": {
-
+  "scripts": {},
+  "dependencies": {
+    "puppeteer": "^21.5.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.4",
