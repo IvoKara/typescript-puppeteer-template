@@ -4,8 +4,11 @@
   "author": "Ivo Karaneshev",
   "main": "src/main.ts",
   "scripts": {
-    "build": "node scripts/build.js"
-
+    "build": "node scripts/build.js",
+    "preview": "node dist/index.js",
+    "preview:dev": "HEADLESS=false node dist/index.js",
+    "start": "run-s build preview",
+    "dev": "run-s build preview:dev"
   },
   "dependencies": {
     "puppeteer": "^21.5.2"
