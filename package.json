@@ -3,7 +3,10 @@
   "type": "module",
   "author": "Ivo Karaneshev",
   "main": "src/main.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "node scripts/build.js"
+
+  },
   "dependencies": {
     "puppeteer": "^21.5.2"
   },
